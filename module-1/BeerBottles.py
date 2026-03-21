@@ -25,6 +25,7 @@ def beer_countdown(bottles):
         print()
 
 def main():
+    #Get initial bottle count from user
     bottles = int(input("Enter number of bottles: "))
     beer_countdown(bottles)
     print("Time to buy more bottles of beer.")
