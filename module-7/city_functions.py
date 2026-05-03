@@ -1,6 +1,6 @@
 '''
 ============================================
-# Title: Assignment 7.1
+# Title: Assignment 7.2
 # Author: Zach Donohue
 # Date: 30 April 2026
 ===========================================
@@ -12,6 +12,7 @@ Description: This program is used provide functions for the test_cities.py progr
 ============================================
 '''
 
+# Optional parameters set with =None
 def city_country(city, country, population=None, language=None):
     result = f"{city}, {country}"
     if population:
